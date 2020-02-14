@@ -29,5 +29,4 @@ hoverAnswer = function(){
 };
 
 onclickAnswer = function(){
-
 };
