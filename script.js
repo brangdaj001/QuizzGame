@@ -1,5 +1,12 @@
-answers = function(questionText, choice1, choice2, choice3, choice4, correctChoice) {
+createQuestion = function(questionText, choice1, choice2, choice3, choice4, correctChoice) {
 
+    let response = document.getElementById("question");
+    response.innerText = "HI how are you";
+    options();
+};
+
+
+options = function (questionText, choice1, choice2, choice3, choice4, correctChoice){
     let answer = document.getElementById("buttons");
 
     let question1 = document.getElementById("choice0");
@@ -15,6 +22,12 @@ answers = function(questionText, choice1, choice2, choice3, choice4, correctChoi
 
     let question4 = document.getElementById("choice3");
     question4.innerText = " gfdgf gfdgrs gdfstrg";
+};
 
+hoverAnswer = function(){
+
+};
+
+onclickAnswer = function(){
 
 };
