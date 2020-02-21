@@ -14,7 +14,7 @@ body {
 
 .grid h1 {
     font-family: "sans-serif";
-    background-color: cyan;
+    background-color: #46ff30;
     font-size: 60px;
     text-align: center;
     color: #ffffff;
@@ -23,7 +23,7 @@ body {
 }
 
 #score {
-    color: cyan;
+    color: #46ff30;
     text-align: center;
     font-size: 30px;
 }
@@ -31,7 +31,7 @@ body {
 .grid #question {
     font-family: "monospace";
     font-size: 30px;
-    color: cyan;
+    color: #46ff30;
 }
 
 .buttons {
@@ -39,7 +39,7 @@ body {
 }
 
 #btn0, #btn1, #btn2, #btn3 {
-    background-color: cyan;
+    background-color: #46ff30;
     width: 250px;
     font-size: 20px;
     color: #fff;
@@ -50,11 +50,11 @@ body {
 
 #btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
     cursor: pointer;
-    background-color: cyan;
+    background-color: #46ff30
 }
 
 #btn0:active, #btn1:active, #btn2:active, #btn3:active {
-    background-color: cyan;
+    background-color: #46ff30;
 }
 
 #btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
