@@ -1,7 +1,7 @@
 let count = 0;
 let numRight = 0;
 let correctOne;
-let numQuestions = 0;
+let numQuestions = 4;
 
 let btn0 = document.getElementById('btn0');
 let btn1 = document.getElementById('btn1');
@@ -26,6 +26,7 @@ createQuestion = function(question, btn0, btn1, btn2, btn3, correctChoice) {
 
     let correct = document.getElementById("correctChoice");
     correctChoice.innerText = btn1;
+    
 };
 
 let Questions = function(){
@@ -43,9 +44,10 @@ let Questions = function(){
         createQuestion("What language do sims speak?", "Simlish", " Spanish", "Danish","English","Simlish");
     }else{
         let question = document.getElementById("question");
-        question.innerText = "You got " + numRight + "correct out of " + numQuestions;
+        question.innerText = "You got " + numRight + " correct out of " + numQuestions;
         document.getElementById("buttons").innerHTML = " ";
     }
+
 };
 
 let checkCorrect = function(button){
